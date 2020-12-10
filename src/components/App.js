@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import SearchBar from "./SearchBar";
-import './App.css'
 import VideoList from './VideoList'
 import Youtube from '../apis/Youtube'
 import VideoDetail from "./VideoDetail";
@@ -30,13 +29,13 @@ export class App extends Component {
   render() {
     return (
       <div className=" ui container">
-        <SearchBar className='app' onTermSubmit={this.onTermSubmit} />
+        <SearchBar onTermSubmit={this.onTermSubmit} />
         <div className="ui grid">
-          <div className="ui row">
-            <div className="eleven wide column">
+          <div className="">
+            <div className="">
             <VideoDetail video={this.state.selectedVideo}/>
             </div>
-            <div className="five wide column">
+            <div className="">
             <VideoList onVideoSelect={this.onVideoSelect} videos={this.state.videos}/>
             </div>
           </div>
