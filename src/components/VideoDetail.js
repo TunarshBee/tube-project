@@ -9,7 +9,7 @@ export default function VideoDetail({video}) {
     const videoSrc=`https://www.youtube.com/embed/${video.id.videoId}`
 
     return (
-        <div>
+        <div >
             <div className='ui embed'>
                 <iframe title="vidoe title" src={videoSrc} />
             </div>
