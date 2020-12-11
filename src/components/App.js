@@ -31,7 +31,7 @@ export class App extends Component {
     return (
       <div className=" ui container">
         <SearchBar onTermSubmit={this.onTermSubmit} />
-        <div className="ui grid">
+        <div className="">
           <div className="">
             <div className="">
             <VideoDetail video={this.state.selectedVideo}/>
