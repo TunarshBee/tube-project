@@ -10,7 +10,7 @@ export class App extends Component {
     state ={ videos :[], selectedVideo: null }
 
     componentDidMount(){
-      this.onTermSubmit('coding')
+      this.onTermSubmit('buildings')
     }
 
   onTermSubmit = async term => {
