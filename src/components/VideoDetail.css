@@ -5,6 +5,7 @@
     /* margin-left: 5%; */
     /* width: 112% !important; */
 }
-.h4{
-    background: transparent;
+.h4,h4{
+    background: transparent !important;
+    color: #ffffff !important;
 }
