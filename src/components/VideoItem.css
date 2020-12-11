@@ -2,6 +2,7 @@
     display: flex !important;
     color: #ffffff !important;
     align-items: center !important;
+    border-color: #ffffff !important;
     cursor: pointer;
 }
 .video-item.item img{
