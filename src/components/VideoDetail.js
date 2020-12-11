@@ -15,7 +15,7 @@ export default function VideoDetail({video}) {
                 <iframe title="vidoe title" src={videoSrc} />
             </div>
             <div className='ui segment'>
-                <h4 className='ui header'>{video.snippet.title}</h4>
+                <h4 className='h4 ui header'>{video.snippet.title}</h4>
                 <p>{video.snippet.description}</p>
             </div>
         </div>

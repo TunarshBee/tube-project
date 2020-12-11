@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './app.css';
 import SearchBar from "./SearchBar";
 import VideoList from './VideoList'
 import Youtube from '../apis/Youtube'
