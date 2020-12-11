@@ -3,6 +3,6 @@
 }
 body{
     padding-top: 1.5%;
-    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
-    ,url("christian-stahl-xmGkzY--Fgg-unsplash.jpg") black;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
+    url("christian-stahl-xmGkzY--Fgg-unsplash.jpg");
 }
